@@ -4,7 +4,7 @@
 文件名称   ：tiobe_python.PY
 开发工具   ：PyCharm
 """
-#爬取编程排行
+#爬取编程语言排行
 import csv
 import requests,re
 class Tiobe_python(object):
