@@ -25,7 +25,7 @@ def tuitang(name,num):
         data_j = json.loads(data_m)
         data_list = jsonpath.jsonpath(data_j,'$..path')
         pprint.pprint(data_list)
-        img_name = 0
+        img_name = n
         #遍历每一个图片
         for i in data_list:
             img = requests.get(i)
